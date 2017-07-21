@@ -1,0 +1,4 @@
+[0718/184854:ERROR:renderer_main.cc(203)] Running without renderer sandbox
+[0718/184855:ERROR:child_discardable_shared_memory_manager.cc(266)] size: 4194304
+[0718/185009:ERROR:renderer_main.cc(203)] Running without renderer sandbox
+[0718/185009:ERROR:child_discardable_shared_memory_manager.cc(266)] size: 4194304

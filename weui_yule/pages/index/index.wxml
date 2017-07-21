@@ -1,0 +1,13 @@
+<view class="weui-panel weui-panel_access weui-panel-first">
+<view class="weui-panel_hd">新歌榜
+<navigator url="../music/music" open-type="switchTab" class="weui-cell__ft weui-cell__ft_in-access">更多
+</navigator>
+</view>
+<view class="weui-panel_bd">
+  <view class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+  <navigator url="../music/music"open-type="switchTab" wx:for="{{song_list}}" wx:key="{{key}}" class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+   <image  class="weui-media-box__thumb" src="{{item.pic_big}}" />
+  </navigator>
+  </view>
+</view>
+</view>
